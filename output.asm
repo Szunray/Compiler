@@ -1,0 +1,22 @@
+LOAD 2
+STORE y
+LOAD 3
+STORE z
+LOAD 1
+STORE x
+LOAD z
+STORE temp0
+WRITE temp0
+LOAD y
+STORE temp1
+WRITE temp1
+LOAD x
+STORE temp2
+WRITE temp2
+STOP
+temp0 0
+temp1 0
+temp2 0
+x 0
+y 0
+z 0
